@@ -81,7 +81,7 @@ nav a {
 .about {
   padding: 130px;
   border-radius: 10px;
-  background: #fff8f3;
+  background: #FFF8F3;
   margin: 130px 0px;
 }
 .section-title {
@@ -99,16 +99,32 @@ nav a {
   text-align: center;
   font-size: 18px;
 }
-main{
-    max-width: 1140px;
-    margin: 0 auto;
-
+main {
+  max-width: 1140px;
+  margin: 0 auto;
 }
-.about-info-container{
-    display: flex;
-    justify-content: space-around;
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
 }
-.about-info{
+.about-info {
+  text-align: center;
+}
+.info-title {
+  color: #757575;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.info-description {
+  color: #474747;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+#whai-i-do{
+    padding: 30px 150px;
     text-align: center;
-    
 }
+
