@@ -3,6 +3,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
 /*common shared styles */
 body {
@@ -37,4 +38,17 @@ nav a {
   font-style: normal;
   font-weight: 700;
   padding: 15px 30px;
+}
+.header {
+  background-color: #fff8f3;
+}
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+.banner .profil-picture {
+  width: 584px;
+  height: 676px;
+  flex-shrink: 0;
 }
