@@ -39,6 +39,9 @@ nav a {
   font-weight: 700;
   padding: 15px 30px;
 }
+.btn-primary:hover {
+  color: black;
+}
 .header {
   background-color: #fff8f3;
   background-image: url("../images/header_bg.png");
@@ -81,7 +84,7 @@ nav a {
 .about {
   padding: 130px;
   border-radius: 10px;
-  background: #FFF8F3;
+  background: #fff8f3;
   margin: 130px 0px;
 }
 .section-title {
@@ -103,6 +106,9 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
+main section {
+  margin-top: 130px;
+}
 .about-info-container {
   display: flex;
   justify-content: space-around;
@@ -123,8 +129,55 @@ main {
   font-weight: 700;
   line-height: 30px;
 }
-#whai-i-do{
-    padding: 30px 150px;
-    text-align: center;
+.info-description:hover {
+  color: black;
+}
+#whai-i-do {
+  padding: 30px 150px;
+  text-align: center;
+}
+/* skills related styles */
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+.skill-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.skill {
+  padding: 33px;
+  text-align: left;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 30px 0px;
+}
+.skill:hover {
+  background-color: #474747;
+}
+.section-title:hover {
+  background-color: #4d2407ce;
+  color: black;
+}
+.hover:hover {
+  background-color: #fd6e0a;
+}
+.hover {
+  font-weight: 700;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+.skill-description {
+  color: #757575;
+}
+.resume-colum-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+.resume-colum-title:hover {
+  color: black;
 }
 
