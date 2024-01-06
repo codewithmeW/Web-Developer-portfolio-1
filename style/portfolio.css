@@ -185,8 +185,8 @@ main section {
   display: flex;
   gap: 71px;
 }
-.resume-container hr{
-  margin: 30px ;
+.resume-container hr {
+  margin: 30px;
 }
 .resume-item-title {
   color: #474747;
@@ -210,7 +210,13 @@ main section {
   font-weight: 600;
   margin-top: 0px;
 }
-.download-cv{
+.download-cv {
   text-align: center;
   margin-top: 50px;
+}
+footer{
+  display: flex;
+  background: #fff8f3;
+  padding: 130px 230px;
+  
 }
