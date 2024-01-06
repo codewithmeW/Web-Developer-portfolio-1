@@ -152,7 +152,7 @@ main section {
   text-align: left;
   border-radius: 5px;
   background: #fff;
-  box-shadow: 0px 6px 30px 0px;
+  box-shadow: #757575 0px 6px 30px 0px;
 }
 .skill:hover {
   background-color: #474747;
@@ -176,8 +176,41 @@ main section {
   color: #474747;
   font-size: 30px;
   font-weight: 700;
+  margin-bottom: 30px;
 }
 .resume-colum-title:hover {
   color: black;
 }
-
+.resume-container {
+  display: flex;
+  gap: 71px;
+}
+.resume-container hr{
+  margin: 30px ;
+}
+.resume-item-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.resume-item-title:hover {
+  color: black;
+}
+.resume-item-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 20px;
+}
+.resume-item-institute {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 0px;
+}
+.download-cv{
+  text-align: center;
+  margin-top: 50px;
+}
